@@ -1,0 +1,12 @@
+# example listener.ora for cluster failover
+# $Id: listener.ora 798 2013-05-18 06:27:12Z tbr $
+#
+trac1 =
+  (DESCRIPTION_LIST =
+    (DESCRIPTION =
+      (ADDRESS_LIST =
+        (ADDRESS = (PROTOCOL = TCP)(HOST = racnfs)(PORT = 1522))
+      )
+    )
+  )
+
